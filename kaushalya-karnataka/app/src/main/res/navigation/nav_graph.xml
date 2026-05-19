@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/homeFragment">
+
+    <fragment
+        android:id="@+id/homeFragment"
+        android:name="com.kaushalya.karnataka.ui.home.HomeFragment"
+        android:label="@string/nav_browse"
+        tools:layout="@layout/fragment_home"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_home_to_profile"
+            app:destination="@id/profileFragment" />
+
+        <action
+            android:id="@+id/action_home_to_addWorker"
+            app:destination="@id/addWorkerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/myProfileFragment"
+        android:name="com.kaushalya.karnataka.ui.profile.MyProfileFragment"
+        android:label="@string/nav_my_profile"
+        tools:layout="@layout/fragment_my_profile"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <action
+            android:id="@+id/action_myProfile_to_addWorker"
+            app:destination="@id/addWorkerFragment" />
+
+        <action
+            android:id="@+id/action_myProfile_to_profile"
+            app:destination="@id/profileFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/profileFragment"
+        android:name="com.kaushalya.karnataka.ui.profile.ProfileFragment"
+        android:label=""
+        tools:layout="@layout/fragment_profile"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <argument
+            android:name="workerId"
+            app:argType="long" />
+
+        <action
+            android:id="@+id/action_profile_to_editWorker"
+            app:destination="@id/addWorkerFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/addWorkerFragment"
+        android:name="com.kaushalya.karnataka.ui.onboarding.AddWorkerFragment"
+        android:label="@string/become_worker_title"
+        tools:layout="@layout/fragment_add_worker"
+        xmlns:tools="http://schemas.android.com/tools">
+
+        <argument
+            android:name="workerId"
+            app:argType="long"
+            android:defaultValue="0L" />
+    </fragment>
+
+</navigation>

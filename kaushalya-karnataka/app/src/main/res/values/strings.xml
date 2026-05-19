@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Kaushalya</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_browse">Browse</string>
+    <string name="nav_my_profile">My Profile</string>
+
+    <!-- Home / browse screen -->
+    <string name="home_greeting">Find a verified local pro</string>
+    <string name="home_subgreeting">Electricians, plumbers, carpenters and more — right in your town.</string>
+    <string name="search_hint">Search by name, town or skill…</string>
+    <string name="filter_all">All</string>
+    <string name="empty_workers_title">No matching workers</string>
+    <string name="empty_workers_body">Try a different search or clear the category filter.</string>
+
+    <!-- Worker card / profile -->
+    <string name="rating_label">%1$.1f ★</string>
+    <string name="reviews_count_zero">No reviews yet</string>
+    <string name="starting_at">Starting ₹%1$d</string>
+    <string name="price_fixed">₹%1$d</string>
+    <string name="price_with_currency">₹%1$d</string>
+    <string name="town_dot_category">%1$s · %2$s</string>
+    <string name="starting_at_label">Starting at</string>
+    <string name="rating_decimal">%1$.1f</string>
+
+    <!-- Profile screen -->
+    <string name="profile_about">About</string>
+    <string name="profile_portfolio">Portfolio</string>
+    <string name="profile_services">Service cards</string>
+    <string name="profile_reviews">Reviews from neighbours</string>
+    <string name="profile_no_portfolio">No portfolio photos yet.</string>
+    <string name="profile_no_services">No services listed yet.</string>
+    <string name="profile_no_reviews">Be the first to leave a review.</string>
+    <string name="hire_me">Hire me — request a call</string>
+    <string name="add_review">Leave a review</string>
+    <string name="add_service">Add service card</string>
+    <string name="add_portfolio">Add portfolio photo</string>
+    <string name="edit_profile">Edit profile</string>
+
+    <!-- My profile / become worker -->
+    <string name="become_worker_title">Become a Kaushalya pro</string>
+    <string name="become_worker_subtitle">Set up your free Service Card so neighbours can find you.</string>
+    <string name="become_worker_cta">Create my profile</string>
+    <string name="my_profile_empty_title">You haven\'t created your profile yet</string>
+    <string name="my_profile_empty_body">Set up a free Service Card and start receiving Hire-Me requests from your neighbourhood.</string>
+    <string name="field_name">Full name</string>
+    <string name="field_category">Skill / Category</string>
+    <string name="field_phone">Phone (for calls)</string>
+    <string name="field_town">Town / Area</string>
+    <string name="field_bio">A line about your work</string>
+    <string name="select_avatar">Tap to add a photo</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+
+    <!-- Hire me dialog -->
+    <string name="hire_me_dialog_title">Request sent!</string>
+    <string name="hire_me_dialog_message">%1$s will get a notification to call you back. (Demo: this is a simulated notification — no real call is dialled.)</string>
+    <string name="hire_me_call_now">Call %1$s</string>
+    <string name="hire_me_done">OK</string>
+
+    <!-- Add service -->
+    <string name="add_service_title">Add a service card</string>
+    <string name="edit_service_title">Edit service card</string>
+    <string name="field_service_name">Service (e.g. Fan Repair)</string>
+    <string name="field_service_price">Price (₹)</string>
+    <string name="field_service_starting">This is a "Starting at" price</string>
+
+    <!-- Add review -->
+    <string name="add_review_title">Leave a review</string>
+    <string name="field_review_name">Your name</string>
+    <string name="field_review_rating">Rating</string>
+    <string name="field_review_comment">Tell others how the work went…</string>
+    <string name="submit_review">Post review</string>
+
+    <!-- Misc -->
+    <string name="delete">Delete</string>
+    <string name="edit">Edit</string>
+    <string name="confirm_delete_service">Delete this service card?</string>
+    <string name="confirm_delete_photo">Remove this photo from your portfolio?</string>
+    <string name="confirm_delete_profile">Delete your worker profile? This removes your services and reviews too.</string>
+    <string name="cd_avatar">Profile photo</string>
+    <string name="cd_back">Back</string>
+    <string name="cd_more">More options</string>
+    <string name="cd_star">Star</string>
+
+    <!-- Onboarding -->
+    <string name="onboarding_register">List my skills</string>
+
+    <!-- Plurals -->
+    <plurals name="reviews_count">
+        <item quantity="one">%d review</item>
+        <item quantity="other">%d reviews</item>
+    </plurals>
+    <plurals name="services_count">
+        <item quantity="one">%d service</item>
+        <item quantity="other">%d services</item>
+    </plurals>
+
+    <!-- Errors / validation -->
+    <string name="err_name_required">Please enter your name</string>
+    <string name="err_phone_required">Please enter a phone number</string>
+    <string name="err_category_required">Please choose a category</string>
+    <string name="err_price_invalid">Enter a valid price</string>
+    <string name="err_review_short">Write a few words for your review</string>
+    <string name="err_rating_required">Tap the stars to rate</string>
+</resources>

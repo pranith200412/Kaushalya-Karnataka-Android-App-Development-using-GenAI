@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="avatar_lg">88dp</dimen>
+    <dimen name="avatar_md">56dp</dimen>
+
+    <dimen name="portfolio_thumb">128dp</dimen>
+    <dimen name="hire_me_btn_height">56dp</dimen>
+</resources>

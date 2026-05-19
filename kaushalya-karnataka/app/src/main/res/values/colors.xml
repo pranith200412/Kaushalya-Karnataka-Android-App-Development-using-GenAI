@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--
+      Brand palette — warm Karnataka saffron + trustworthy teal.
+      Every "on*" colour has been chosen to give >= 4.5:1 contrast against its
+      paired background so text is always readable. Never reuse a "container"
+      or "surface" colour for text on top of itself.
+    -->
+
+    <!-- Primary: warm copper-saffron -->
+    <color name="brand_primary">#B8430F</color>
+    <color name="brand_on_primary">#FFFFFF</color>
+    <color name="brand_primary_container">#FFDBC9</color>
+    <color name="brand_on_primary_container">#3A1100</color>
+
+    <!-- Secondary: deep teal — for "Hire Me" CTA & accents -->
+    <color name="brand_secondary">#00695C</color>
+    <color name="brand_on_secondary">#FFFFFF</color>
+    <color name="brand_secondary_container">#B2DFDB</color>
+    <color name="brand_on_secondary_container">#002019</color>
+
+    <!-- Tertiary: gold — for star ratings & highlights -->
+    <color name="brand_tertiary">#A6731B</color>
+    <color name="brand_on_tertiary">#FFFFFF</color>
+    <color name="brand_tertiary_container">#FFE0B2</color>
+    <color name="brand_on_tertiary_container">#2B1700</color>
+
+    <!-- Surfaces -->
+    <color name="brand_surface">#FFF8F4</color>
+    <color name="brand_on_surface">#1F1B16</color>
+    <color name="brand_surface_variant">#F2E5D7</color>
+    <color name="brand_on_surface_variant">#52443A</color>
+    <color name="brand_surface_container">#F8EFE7</color>
+    <color name="brand_surface_container_high">#EFE5DA</color>
+    <color name="brand_outline">#84746A</color>
+    <color name="brand_outline_variant">#D6C5B8</color>
+
+    <color name="brand_background">#FFF8F4</color>
+    <color name="brand_on_background">#1F1B16</color>
+
+    <color name="brand_error">#BA1A1A</color>
+    <color name="brand_on_error">#FFFFFF</color>
+    <color name="brand_error_container">#FFDAD6</color>
+    <color name="brand_on_error_container">#410002</color>
+
+    <!-- Star ratings -->
+    <color name="star_filled">#F4B400</color>
+    <color name="star_empty">#D6C5B8</color>
+
+    <!--
+      Avatar palette (deterministic per worker — first letter colour).
+      Backgrounds MUST be light because the initials are drawn in
+      colorOnPrimaryContainer (a dark warm brown). If you swap one of these
+      for a darker hue, also update the initials text colour or the letter
+      will disappear into the disc.
+    -->
+    <color name="avatar_a">#FFD0BC</color>
+    <color name="avatar_b">#B5E5DD</color>
+    <color name="avatar_c">#C4CDF6</color>
+    <color name="avatar_d">#E6CCEE</color>
+    <color name="avatar_e">#C7E8C7</color>
+
+    <!-- Dark initials colour, paired with all avatar_* light backgrounds. -->
+    <color name="avatar_initials">#2B1700</color>
+</resources>
