@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Hero gradient — every shade is dark enough that white text on top stays
+  >= 4.5:1 contrast (AA for body text). Don't lighten the endColor without
+  also rechecking the heroSubTv readability.
+-->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <gradient
+        android:angle="135"
+        android:startColor="#9C3309"
+        android:centerColor="@color/brand_primary"
+        android:endColor="#D45016" />
+</shape>
